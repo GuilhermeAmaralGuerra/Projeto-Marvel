@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Filmes marvel</title>
+</head>
+<body>
+    <header>
+        <h1>Filmes da Marvel</h1>
+        <h2><a href="#Fases-Marvel">Fases</a></h2>
+        <h2><a href="#Pesquisa">Pesquisa</a></h2>
+        <h2><a href="#herois">Herois</a></h2>
+    </header>
+    <main>
+
+        <section class="Fases-Marvel" id="Fases-Marvel">
+            <h2>Fases do UCM</h2>
+            <div class="fases">
+                <div class="fase">
+                    <h2>Fase 1 (2008 - 2012)</h2>
+                    <p>Introdução dos principais heróis da Marvel, culminando em “Os Vingadores” (2012), onde os heróis se unem para enfrentar Loki.</p>
+                    <ul>
+                        <li>Homem de Ferro (2008)</li>
+                        <li>O Incrível Hulk (2008)</li>
+                        <li>Homem de Ferro 2 (2010)</li>
+                        <li>Thor (2011)</li>
+                        <li>Capitão América: O Primeiro Vingador (2011)</li>
+                        <li>Os Vingadores (2012)</li>
+                    </ul>
+                </div>
+                <div class="fase">
+                    <h2>Fase 2 (2013 - 2015)</h2>
+                    <p>Expansão do universo com sequências e novos personagens, terminando com “Homem-Formiga” (2015).</p>
+                    <ul>
+                        <li>Homem de Ferro 3 (2013)</li>
+                        <li>Thor: O Mundo Sombrio (2013)</li>
+                        <li>Capitão América: O Soldado Invernal (2014)</li>
+                        <li>Guardiões da Galáxia (2014)</li>
+                        <li>Vingadores: Era de Ultron (2015)</li>
+                        <li>Homem-Formiga (2015)</li>
+                    </ul>
+                </div>
+                <div class="fase">
+                    <h2>Fase 3 (2016 - 2019)</h2>
+                    <p>Grandes eventos e mudanças, culminando em “Vingadores: Guerra Infinita” e “Vingadores: Ultimato”.</p>
+                    <ul>
+                        <li>Capitão América: Guerra Civil (2016)</li>
+                        <li>Doutor Estranho (2016)</li>
+                        <li>Guardiões da Galáxia Vol. 2 (2017)</li>
+                        <li>Homem-Aranha: De Volta ao Lar (2017)</li>
+                        <li>Thor: Ragnarok (2017)</li>
+                        <li>Pantera Negra (2018)</li>
+                        <li>Vingadores: Guerra Infinita (2018)</li>
+                        <li>Homem-Formiga e a Vespa (2018)</li>
+                        <li>Capitã Marvel (2019)</li>
+                        <li>Vingadores: Ultimato (2019)</li>
+                        <li>Homem-Aranha: Longe de Casa (2019)</li>
+                    </ul>
+                </div>
+                <div class="fase">
+                    <h2>Fase 4 (2021 - 2022)</h2>
+                    <p>Novas histórias e personagens, explorando dimensões e realidades alternativas.</p>
+                    <ul>
+                        <li>Viúva Negra (2021)</li>
+                        <li>Shang-Chi e a Lenda dos Dez Anéis (2021)</li>
+                        <li>Eternos (2021)</li>
+                        <li>Homem-Aranha: Sem Volta para Casa (2021)</li>
+                        <li>Doutor Estranho no Multiverso da Loucura (2022)</li>
+                        <li>Thor: Amor e Trovão (2022)</li>
+                        <li>Pantera Negra: Wakanda Para Sempre (2022)</li>
+                        <li>Guardiões da Galáxia Vol. 3 (2022)</li>
+                    </ul>
+                </div>
+                <div class="fase">
+                    <h2>Fase 5 (2023 - 2024)</h2>
+                    <p>Continuação da expansão do MCU com novos filmes e séries, introduzindo novos personagens e equipes.</p>
+                    <ul>
+                        <li>The Marvels (2023)</li>
+                        <li>Capitão América: Nova Ordem Mundial (2024)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="pesquisa" id="Pesquisa">
+            <label for="Pesquisar">Pesquise o filme aqui:</label>
+            <input type="text" placeholder="Digite sua pesquisa aqui" id="pesquisar">
+            <button onclick="pesquisa()" id="botaoPesquisa">Pesquisar</button>
+
+            <div id="resultado" class="resultado">
+
+            </div>
+
+            <section class="filmes" id="filmes">
+
+            </section>
+        </section>
+
+        <section class="herois" id="herois">
+            <h2>Herois</h2>
+            <div id="conjuntoHeroi" class="conjuntoHeroi">
+
+            </div>
+        </section>
+
+        
+    </main>
+    <footer>
+        <p>
+            2024-Filmes da Marvel-Todos os direitos reservados <br>
+            Entre em contado pelo email: guilhermeguerra267@gmail.com
+        </p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

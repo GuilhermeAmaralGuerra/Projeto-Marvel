@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    background-image: url(imagem/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    font-family: "Playfair Display", sans-serif;
+    color:  #FF0000;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: #141414;
+    text-decoration: none;
+    position: fixed;
+}
+header a{
+    color:  #FF0000;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+.Fases-Marvel{
+    display: flex;
+    flex-direction: column;
+    width: 60rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C2C2C;
+    margin-top: 2rem;
+    border-radius: 1.5rem;
+}
+.Fases-Marvel h2{
+    color:  #FF0000;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.Fases-Marvel .fases{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Fases-Marvel .fase{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #FF0000;
+    border-radius: 1.5rem;
+    margin: 2rem;
+    padding: 1rem;
+    width: 16rem;
+    color: white;
+}
+.Fases-Marvel .fase h2{
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    color: #FFD700;
+}
+.Fases-Marvel .fase p{
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+.Fases-Marvel .fase ul{
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+}
+.pesquisa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50rem;
+    height: auto;
+    background-color: #2C2C2C;
+    border-radius: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+.pesquisa label{
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-bottom: 1rem;
+}
+.pesquisa input{
+    width: 25rem;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: whitesmoke;
+    background-color: #FF0000;
+    margin-bottom: 1rem;
+}
+.pesquisa input::placeholder{
+    color: whitesmoke;
+}
+.pesquisa button{
+    background-color: #FFD700;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    padding: 0.7rem;
+    margin-bottom: 1.5rem;
+    color: #141414;
+}
+.resultado{
+    width: 40rem;
+    color: white;
+}
+.filmes{
+    width: 40rem;
+    height: 40vh;
+    border-radius: 1.5rem;
+    color: white;
+    overflow-y: auto;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.item-filmes{
+    border: 1px solid;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FF0000;
+}
+.item-filmes h2{
+    font-family: "Playfair Display", sans-serif;
+    color: #FFD700;
+}
+.item-filmes p{
+    color: #FFD700;
+}
+.item-filmes a{
+    text-decoration: none;
+    color: white;
+}
+.item-filmes a:hover{
+    text-decoration: dashed;
+}
+.item-filmes .texto-filmes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+.item-filmes img{
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+    
+}
+.herois{
+    width: 50rem;
+    height: auto;
+    border-radius: 1.5rem;
+    background-color: #2C2C2C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.herois h2{
+    font-family: "PlayFair Display", sans-serif;
+    color: #FFD700;
+    margin-top: 1rem;
+}
+.conjuntoHeroi{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.personagem{
+    width: 15rem;
+    height: 12rem;
+    border-radius: 1.5rem;
+    background-color: #FF0000;
+    padding: 0.8rem;
+    margin: 0.8rem;
+}
+.personagem h3{
+    font-family: "Playfair Display", sans-serif;
+    color:#FFD700;
+    margin-top: 0.5rem;
+}
+.personagem .descricaoHeroi{
+    color: white;
+    margin-top: 0.5rem;
+}
+footer{
+    width: 100%;
+    background-color: #141414;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    bottom: 0;
+    margin-top: 2rem;
+}
